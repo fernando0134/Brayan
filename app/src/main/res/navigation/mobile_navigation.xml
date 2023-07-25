@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/principal">
+
+    <fragment
+        android:id="@+id/principal"
+        android:name="com.example.brayan.ui.home.HomeFragment"
+        android:label="principal"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/Calendario"
+        android:name="com.example.brayan.ui.gallery.GalleryFragment"
+        android:label="calendario"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/Factura"
+        android:name="com.example.brayan.ui.slideshow.SlideshowFragment"
+        android:label="Factura"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/masajes"
+        android:name="com.example.brayan.masajes"
+        android:label="masajes"
+        tools:layout="@layout/fragment_masajes" />
+    <fragment
+        android:id="@+id/empleadost"
+        android:name="com.example.brayan.Empleadost"
+        android:label="fragment_empleadost"
+        tools:layout="@layout/fragment_empleadost" />
+    <fragment
+        android:id="@+id/reportes"
+        android:name="com.example.brayan.Reportes"
+        android:label="fragment_reportes"
+        tools:layout="@layout/fragment_reportes" />
+    <fragment
+        android:id="@+id/cliente"
+        android:name="com.example.brayan.Cliente"
+        android:label="fragment_cliente"
+        tools:layout="@layout/fragment_cliente" />
+</navigation>

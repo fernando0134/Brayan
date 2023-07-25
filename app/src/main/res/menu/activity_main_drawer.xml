@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/masajes"
+            android:icon="@drawable/masajes"
+            android:title="masajes" />
+        <item
+            android:id="@+id/principal"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="principal" />
+        <item
+            android:id="@+id/Calendario"
+            android:icon="@drawable/calendario"
+            android:title="calendario" />
+        <item
+            android:id="@+id/Factura"
+            android:icon="@drawable/factura"
+            android:title="factura" />
+        <item
+            android:id="@+id/empleadost"
+            android:icon="@drawable/empleados"
+            android:title="empleados" />
+        <item
+            android:id="@+id/reportes"
+            android:icon="@drawable/reportes"
+            android:title="reportes" />
+        <item
+            android:id="@+id/Cliente"
+            android:icon="@drawable/cliente"
+            android:title="cliente" />
+    </group>
+</menu>
